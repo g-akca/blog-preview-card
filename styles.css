@@ -7,4 +7,19 @@
 
 body {
     background-color: var(--color-1);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+
+#blog-card {
+    width: 375px;
+    border: 2px solid var(--color-4);
+    border-radius: 20px;
+    background-color: var(--color-2);
+    padding: 20px;
 }
