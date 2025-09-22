@@ -9,12 +9,19 @@ body {
     background-color: var(--color-1);
     height: 100vh;
     margin: 0;
-    padding: 30px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     font-family: 'Figtree', sans-serif;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 #blog-card {
@@ -28,6 +35,8 @@ body {
 
 .banner {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
