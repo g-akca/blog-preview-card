@@ -9,6 +9,7 @@ body {
     background-color: var(--color-1);
     height: 100vh;
     margin: 0;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
