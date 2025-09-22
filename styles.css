@@ -44,9 +44,15 @@ body {
     font-weight: 500;
 }
 
-#blog-card h1 {
+#title {
     font-weight: 800;
     font-size: 1.5em;
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+#title:hover {
+    color: var(--color-1);
 }
 
 #description {
