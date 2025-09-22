@@ -48,4 +48,20 @@ body {
     color: var(--color-3);
     line-height: 1.5em;
     font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#author .avatar {
+    width: 30px;
+}
+
+#author-name {
+    font-size: 0.9em;
+    font-weight: 800;
 }
