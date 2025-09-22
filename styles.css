@@ -17,9 +17,15 @@ body {
 }
 
 #blog-card {
-    width: 375px;
+    width: 340px;
     border: 2px solid var(--color-4);
     border-radius: 20px;
+    box-shadow: 8px 7px var(--color-4);
     background-color: var(--color-2);
     padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
 }
